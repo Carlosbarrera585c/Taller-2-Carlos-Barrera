@@ -1,0 +1,67 @@
+#lnkNuevo {
+    margin-bottom: 5px;
+    font: 90% Comic Sans MS;
+}
+
+#tblContenido {
+    border: solid red 1px;
+    width: 700px;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    font: 90% Comic Sans MS;
+}
+/*
+*Color De Fondo Titulo
+*/
+#tblContenido thead tr th {
+    background-color: #A3FEBA;
+    font: 90% Comic Sans MS;
+}
+/*
+*Color Lineas Divisoras
+*/
+
+#tblContenido tbody tr td, #tblContenido thead tr th {
+    margin: 0px;
+    padding: 0px;
+    border: solid #A3FEBA 1px;
+    padding: 5px;
+    font: 90% Comic Sans MS;
+}
+/*
+*Color Lineas Datos
+*/
+#tblContenido tbody tr:nth-child(2n) {
+    background-color: #67C7E2;
+    font: 90% Comic Sans MS;
+}
+
+#tblContenido tbody tr td:last-child, #tblContenido tbody tr td:nth-child(2) {
+    text-align: center;
+    font: 90% Comic Sans MS;
+}
+
+.error {
+    border: solid #67C7E2 1px;
+    box-shadow: 0px 0px 5px red;
+    background-color: #67C7E2;
+    color: #660000;
+    font: 90% Comic Sans MS;
+}
+
+.error, .success {
+    width: 390px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font: 90% Comic Sans MS;
+}
+/*
+*Colores del Mensaje De Realizado
+*/
+.success {
+    border: solid red 1px;
+    box-shadow: 0px 0px 5px yellow;
+    background-color: #A3FEBA;
+    color: #006633;
+}

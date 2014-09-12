@@ -1,0 +1,105 @@
+﻿/*miestilo.css*/
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+	header,section,aside,footer,article{
+	display:block;
+}
+
+h1{
+	text-shadow: rgb(0,0,150) 3px 3px 5px;
+	font: bold 50px verdana,sans-serif;
+	color: white;
+}
+
+body{
+	text-align: center;
+	background: white;
+}
+
+#baseglobal{
+	width: 85%;
+	background: #00BFFF;
+}
+
+#encabezado{
+	background: wite;
+	border: 2px solid blue;
+	padding: 15px;
+	-moz-border-radius: 40px 40px;
+	-webkit-border-radius: 40px 40px;
+	border-radius: 40px 40px;
+	margin-bottom: 20px;
+
+	-moz-box-shadow: rgb(150,150,150) 5px 5px 10px;
+	-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px;
+	box-shadow: rgb(150,150,150) 5px 5px 10px;
+}
+
+h2{
+	font: bold 20px verdana,sans-serif;
+}
+
+#barramenu{
+	background:white;
+	text-align: left;
+	padding: 10px;
+	-moz-border-radius: 40px 40px;
+	-webkit-border-radius: 40px 40px;
+	border-radius: 40px 40px;
+}
+#barramenu li{
+	list-style: none;   /*elimina las viñetas*/
+	display: inline-block;
+	background: white;
+	padding: 5px;
+	font: bold 20px verdana, sans-serif; 
+	-moz-border-radius: 40px 40px;
+	-webkit-border-radius: 40px 40px;
+	border-radius: 40px 40px;
+}
+
+#contenido{
+ 	background: white;
+	width: 65%;
+	padding: 15px;
+	margin-left: 20px;
+	float: left;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#columna{
+	background: blue;
+	width: 25%;
+	padding: 15px;
+	float: right;
+	margin-right: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+#pie{
+	clear: both;
+	background: red;
+	padding: 15px;
+	height: 20px;
+	font: italic 24px verdana, sans-serif;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px; 
+}
+
+article{
+	border: 1px solid gray;
+	background: red;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px; 
+}
